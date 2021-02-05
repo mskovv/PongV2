@@ -8,6 +8,7 @@ public class Paddle extends Rectangle{
     int speed = 8;
 
 
+
     public Paddle(int x, int y, int PADDLE_WIDTH, int PADDLE_HEIGHT, int id) {
         super(x,y,PADDLE_WIDTH,PADDLE_HEIGHT);
         this.id = id;

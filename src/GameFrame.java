@@ -3,7 +3,7 @@ import java.awt.*;
 
 public class GameFrame extends JFrame {
     GamePanel panel;
-    public GameFrame() {
+    public GameFrame() throws AWTException {
          panel = new GamePanel();
          this.add(panel);
          this.setTitle("Pong");
